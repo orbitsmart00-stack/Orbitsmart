@@ -1,0 +1,72 @@
+/**
+ * Notas de estudo específicas para versículos conhecidos, escritas como
+ * comentário original (não são citação de nenhuma tradução bíblica).
+ * A chave segue o formato "bookKey-chapter-verse" usando as chaves de books.ts.
+ * Quando não existir uma entrada aqui, a interface usa a introdução do livro
+ * (ver bookIntros.ts) como base de estudo.
+ */
+export const VERSE_NOTES: Record<string, string> = {
+  'genesis-1-1': 'Abertura solene das Escrituras: Deus é a origem de tudo o que existe, antes do tempo e do espaço. Tudo o que existe depende dele — nada é eterno além dele mesmo.',
+  'genesis-1-27': 'A humanidade é criada "à imagem de Deus", homem e mulher, o que fundamenta a dignidade igual de toda pessoa humana, independentemente de qualquer outra característica.',
+  'genesis-3-15': 'O primeiro anúncio de esperança após a queda: a "semente da mulher" ferirá a cabeça da serpente. Tradicionalmente lido como a primeira profecia messiânica da Bíblia.',
+  'exodo-20-3': 'O primeiro dos Dez Mandamentos estabelece a exclusividade da adoração a Deus, base de toda a ética bíblica que segue.',
+  'josue-1-9': 'Deus encoraja Josué a ser forte e corajoso diante de uma tarefa imensa, lembrando que sua presença — não a capacidade humana — é o que sustenta a coragem.',
+  'salmos-23-1': 'Imagem pastoral central da Bíblia: Deus cuida de seu povo como um pastor cuida das ovelhas, provendo, guiando e protegendo.',
+  'salmos-27-1': 'Diante do medo, o salmista ancora sua confiança não em circunstâncias, mas no caráter de Deus como luz e salvação.',
+  'salmos-34-18': 'Uma promessa de proximidade divina especificamente na dor: Deus não se afasta dos que sofrem, ele se aproxima dos que têm o coração quebrantado.',
+  'salmos-46-1': 'Mesmo em meio ao caos ("ainda que a terra se mude"), Deus é descrito como refúgio e força seguros e presentes.',
+  'salmos-91-1': 'Metáfora de proteção íntima ("sombra do Onipotente") para quem faz de Deus sua habitação — não um lugar físico, mas uma postura de confiança contínua.',
+  'salmos-119-105': 'A Palavra de Deus é comparada a uma lâmpada: não ilumina o caminho inteiro de uma vez, mas dá luz suficiente para o próximo passo.',
+  'proverbios-3-5': 'Contraste entre confiar no próprio entendimento e confiar de todo o coração no Senhor — a sabedoria bíblica começa com humildade diante de Deus.',
+  'proverbios-16-3': 'Convite a entregar os planos a Deus como condição para que eles se estabeleçam com propósito e não apenas por esforço próprio.',
+  'isaias-40-31': 'Promessa aos cansados: esperar no Senhor renova as forças, imagem da águia que se eleva sem esforço aparente.',
+  'isaias-41-10': 'Um dos versículos mais repetidos de conforto na Bíblia: o medo é respondido pela presença ativa de Deus ("eu te fortaleço, e te ajudo").',
+  'isaias-53-5': 'Profecia do Servo Sofredor, lida pela tradição cristã como antecipação da morte substitutiva de Jesus pelos pecados do povo.',
+  'jeremias-29-11': 'Escrito a exilados que temiam ter sido abandonados por Deus: mesmo no exílio, os planos de Deus são de bem-estar e esperança futura, não de mal.',
+  'jeremias-33-3': 'Um convite direto à oração: clamar a Deus abre acesso a entendimento que a pessoa não alcançaria sozinha.',
+  'mateus-5-3': 'Início do Sermão do Monte: as bem-aventuranças invertem valores humanos, declarando felizes os pobres em espírito, os que choram e os mansos.',
+  'mateus-6-33': 'Prioridade central da vida cristã: buscar o Reino de Deus e sua justiça em primeiro lugar, confiando que as demais necessidades serão supridas.',
+  'mateus-7-7': 'Encorajamento à persistência na oração: pedir, buscar e bater são verbos no presente contínuo, sugerindo uma busca constante, não um pedido único.',
+  'mateus-11-28': 'Convite de Jesus aos cansados e sobrecarregados a encontrar descanso nele, contrastando seu "jugo" leve com os fardos religiosos da época.',
+  'mateus-28-19': 'A Grande Comissão: o mandato final de Jesus aos discípulos para fazer discípulos, batizar e ensinar em todas as nações.',
+  'marcos-12-30': 'Jesus resume toda a Lei em dois mandamentos: amar a Deus integralmente e amar o próximo como a si mesmo.',
+  'lucas-6-31': 'A "Regra de Ouro": tratar os outros da forma como gostaríamos de ser tratados, princípio ético central do ensino de Jesus.',
+  'joao-1-1': 'O evangelho de João abre identificando Jesus como "o Verbo" (Logos), preexistente e plenamente divino, e que "se fez carne" para habitar entre nós.',
+  'joao-3-16': 'Talvez o versículo mais conhecido da Bíblia: o amor de Deus pelo mundo se expressa na entrega do Filho, oferecendo vida eterna a quem crê.',
+  'joao-8-32': 'A verdade — especificamente o ensino de Jesus — liberta; conhecer a verdade não é apenas informação, mas relação que transforma.',
+  'joao-14-6': 'Jesus se declara o único caminho até o Pai, afirmação central e exclusiva da fé cristã sobre a salvação.',
+  'joao-15-5': 'Imagem da videira e dos ramos: a fecundidade espiritual depende de permanecer unido a Cristo, "sem mim nada podeis fazer".',
+  'atos-1-8': 'Promessa do poder do Espírito Santo para testemunhar, com um roteiro geográfico que estrutura todo o livro de Atos.',
+  'romanos-3-23': 'Diagnóstico universal do pecado humano: "todos pecaram e destituídos estão da glória de Deus", base para o argumento da graça que segue.',
+  'romanos-6-23': 'Contraste entre o salário do pecado (morte) e o dom gratuito de Deus (vida eterna em Cristo) — a graça não pode ser ganha, apenas recebida.',
+  'romanos-8-28': 'Promessa de que Deus opera em todas as circunstâncias, inclusive as difíceis, para o bem daqueles que o amam, segundo seu propósito.',
+  'romanos-10-9': 'Fórmula simples da salvação: confessar a Jesus como Senhor e crer em sua ressurreição.',
+  'romanos-12-2': 'Chamado a não se conformar aos padrões do mundo, mas a ser transformado pela renovação da mente.',
+  '1corintios-10-13': 'Promessa de que nenhuma tentação é irresistível: Deus é fiel e sempre provê uma saída.',
+  '1corintios-13-4': 'Descrição clássica do amor ágape: paciente, benigno, não invejoso — padrão que independe de sentimento e se prova em atitude.',
+  '2corintios-5-17': 'Em Cristo, uma pessoa se torna "nova criatura": as coisas antigas passam, um recomeço real e não apenas simbólico.',
+  'galatas-2-20': 'Paulo descreve a vida cristã como identidade transformada: "já não sou eu quem vive, mas Cristo vive em mim".',
+  'galatas-5-22': 'O "fruto do Espírito" — amor, alegria, paz e outras virtudes — é o resultado natural de uma vida guiada pelo Espírito Santo, não uma lista de regras.',
+  'efesios-2-8': 'Definição concisa da graça: a salvação é dom de Deus recebido pela fé, não conquistada por obras — para que ninguém se glorie.',
+  'efesios-6-10': 'Introdução à "armadura de Deus", imagem para a resistência espiritual do cristão diante de forças além do que se vê.',
+  'filipenses-4-6': 'Antídoto para a ansiedade: entregar as preocupações a Deus em oração, com ação de graças, e receber uma paz que "excede todo entendimento".',
+  'filipenses-4-13': 'Frequentemente citado fora de contexto: Paulo fala sobre contentamento em qualquer circunstância, pela força que Cristo dá — não sobre realizar qualquer ambição.',
+  'colossenses-3-23': 'Ética do trabalho cristão: fazer tudo "de coração, como para o Senhor", e não apenas para agradar pessoas.',
+  '1tessalonicenses-5-16': 'Três imperativos breves e conectados: alegrar-se sempre, orar sem cessar e dar graças em tudo — um estilo de vida, não um sentimento constante.',
+  'hebreus-4-12': 'A Palavra de Deus é descrita como viva e ativa, capaz de discernir os pensamentos e intenções do coração.',
+  'hebreus-11-1': 'Definição bíblica de fé: certeza das coisas que se esperam, convicção de fatos que não se veem.',
+  'tiago-1-2': 'Convite paradoxal a considerar as provações como motivo de alegria, pois produzem perseverança e maturidade.',
+  'tiago-4-7': 'Duas ações conectadas: submeter-se a Deus e resistir ao diabo — resultado prometido: o inimigo foge.',
+  '1pedro-2-9': 'Identidade da igreja como "geração eleita, sacerdócio real, nação santa", chamada a anunciar as virtudes de Deus.',
+  '1pedro-5-7': 'Convite a lançar as ansiedades sobre Deus, com a razão dada explicitamente: "porque ele tem cuidado de vós".',
+  '1joao-1-9': 'Promessa de perdão condicionada à confissão sincera: Deus é fiel e justo para perdoar e purificar.',
+  '1joao-4-8': 'Afirmação teológica densa: "Deus é amor" — não apenas que ama, mas que o amor é da sua própria natureza.',
+  '2timoteo-3-16': 'Declaração sobre a origem e utilidade das Escrituras: inspiradas por Deus e úteis para ensinar, repreender, corrigir e instruir.',
+  'apocalipse-1-8': 'Deus se identifica como "o Alfa e o Ômega", princípio e fim, afirmando sua soberania sobre toda a história.',
+  'apocalipse-3-20': 'Imagem de Jesus batendo à porta, um convite pessoal para uma relação de comunhão ("cearei com ele") com quem responde.',
+  'apocalipse-21-4': 'Visão final da restauração: Deus enxugará toda lágrima, e não haverá mais morte, luto, choro ou dor — as "coisas antigas" terão passado.',
+}
+
+export function verseNoteKey(bookKey: string, chapter: number, verse: number): string {
+  return `${bookKey}-${chapter}-${verse}`
+}
